@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#misc {
+    font-size: 30px;
+    text-align: center;
+}
+
+.misc1 {
+    font-size: 30px;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#forms {
+    font-size: 10px;
+    text-align: center;
+    width: 100px;
+    position: relative;
+    left: 500px;
+
+}
+
+#butt{
+    margin-top: 10px;
+}
+.div{
+    border:3px solid blue;
+
+}
+.div2{
+    width: 300px;
+    position: relative;
+    left: 500px;
+}
+.div3{
+    padding: 30px;
+}

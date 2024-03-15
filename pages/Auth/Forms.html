@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Assets/styles/mystyle.css">
+
+</head>
+
+<body>
+    <div class="div div3">
+        <section>
+            <h1> form </h1>
+        </section>
+        <section>
+            <p id="misc">Signup</p>
+        </section>
+        <section>
+            <form id="forms" action="/action_page.php" method="post" >
+                <label>first name</label>
+                <input type="text" placeholder="enter first name" value="John" disabled />
+                <label>lastname name</label>
+                <input type="text" placeholder="enter last name" required />
+                <label> enter dates</label>
+                <input type="date">
+                <label>week</label>
+                <input type="week">
+                <label>age</label>
+                <input type="number">
+                <label>password</label>
+                <input type="password" placeholder="enter password" />
+                <button id="butt">submit</button>
+            </form>
+        </section>
+    </div>
+
+    <br />
+    <div class="div div2">
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+    </div>
+
+    <br />
+    <div class="div div2">
+        <form>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+              <option value="merc">mercedez</option>
+              <option value="range">range rover</option>
+            </select>
+
+           
+        </form>
+    </div>
+
+    <br />
+    <div >
+        <form>
+          
+
+            <textarea name="message" rows="10" cols="30">
+                The cat was playing in the garden.
+                </textarea>
+        </form>
+    </div>
+
+    <div>
+        <p class="misc1">arleady created an account ?</p>
+        <p class="misc1">forgot password ? <a href="./forgotpassword.html" target="_parent"> forgot password </a> </p>
+    </div>
+</body>
+
+</html>
